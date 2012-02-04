@@ -1,6 +1,6 @@
 <?php
     date_default_timezone_set('America/Los_Angeles');
-    include("/lib/xmlrpc.inc");
+    include("lib/xmlrpc.inc");
     $cur = date('c');
     $apiKey = 'symn0506rapc3tjr7q40ndbyzp2f0jxy';
     $apiUserId = '15470';
