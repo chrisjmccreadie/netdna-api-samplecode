@@ -2,13 +2,14 @@
     date_default_timezone_set('America/Los_Angeles');
     include("/path-to/xmlrpc.inc");
     $cur = date('c');
-    $apiKey = 'api-key';
-    $apiUserId = 'user-id';
+    $apiKey = 'symn0506rapc3tjr7q40ndbyzp2f0jxy';
+    $apiUserId = '15470';
     $namespace = 'account';
     $method = 'getBandwidth';
     $authString = hash('sha256', $cur . ':' . $apiKey . ':' . $method);
     $from = '2011-05-10';
     $to = '2011-05-11';
+    $i = 0;
 
     $f=new xmlrpcmsg("$namespace.$method", array(
     php_xmlrpc_encode($apiUserId),
