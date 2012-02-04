@@ -3,7 +3,7 @@
     include("lib/xmlrpc.inc");
     $cur = date('c');
     $apiKey = 'jzq74t4wc1a5k14adb61qc4bq8yqp2yq';
-    $apiUserId = 'chris@flixmedia.tv';
+    $apiUserId = '15469';
     $namespace = 'report';
     $method = 'getUsagePerDay';
     $authString = hash('sha256', $cur . ':' . $apiKey . ':' . $method);
