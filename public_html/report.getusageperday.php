@@ -10,7 +10,7 @@
     $companyId = 'acmeinc';
     $dateFrom = '2012-02-01';
     $dateTo = '2012-02-31';
-    $zoneId = 'zoneid';
+    $zoneId = '30044';
 
     $f=new xmlrpcmsg("$namespace.$method", array(
     	php_xmlrpc_encode($apiUserId),
