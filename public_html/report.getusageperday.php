@@ -2,8 +2,8 @@
     date_default_timezone_set('America/Los_Angeles');
     include("lib/xmlrpc.inc");
     $cur = date('c');
-    $apiKey = 'jzq74t4wc1a5k14adb61qc4bq8yqp2yq';
-    $apiUserId = '15469';
+    $apiKey = 'symn0506rapc3tjr7q40ndbyzp2f0jxy';
+    $apiUserId = '15470';
     $namespace = 'report';
     $method = 'getUsagePerDay';
     $authString = hash('sha256', $cur . ':' . $apiKey . ':' . $method);
