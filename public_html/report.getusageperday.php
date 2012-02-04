@@ -8,8 +8,8 @@
     $method = 'getUsagePerDay';
     $authString = hash('sha256', $cur . ':' . $apiKey . ':' . $method);
     $companyId = 'acmeinc';
-    $dateFrom = '2011-05-10';
-    $dateTo = '2011-05-12';
+    $dateFrom = '2012-02-01';
+    $dateTo = '2012-02-31';
     $zoneId = 'zoneid';
 
     $f=new xmlrpcmsg("$namespace.$method", array(
