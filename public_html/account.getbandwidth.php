@@ -7,8 +7,8 @@
     $namespace = 'account';
     $method = 'getBandwidth';
     $authString = hash('sha256', $cur . ':' . $apiKey . ':' . $method);
-    $from = '2011-05-10';
-    $to = '2011-05-11';
+    $from = '2012-02-01';
+    $to = '2012-02-04';
     $i = 0;
 
     $f=new xmlrpcmsg("$namespace.$method", array(
