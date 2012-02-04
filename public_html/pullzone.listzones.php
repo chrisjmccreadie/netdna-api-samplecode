@@ -2,8 +2,8 @@
 date_default_timezone_set('America/Los_Angeles');
 include("lib/xmlrpc.inc");
 $cur = date('c');
-$apiKey = 'api-key';
-$apiUserId = 'user-id';
+    $apiKey = 'symn0506rapc3tjr7q40ndbyzp2f0jxy';
+    $apiUserId = '15470';
 $namespace = 'pullzone';
 $method = 'listZones';
 $authString = hash('sha256', $cur . ':' . $apiKey . ':' . $method);
